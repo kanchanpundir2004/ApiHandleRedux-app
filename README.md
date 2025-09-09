@@ -16,8 +16,11 @@ Handling loading and error states gracefully
 ✔ Fetches live crypto data from CoinGecko API
 
 ✔ Displays Coin Name, Symbol, Price, Market Cap, and 24h Change
+
 ✔ Highlights positive/negative changes in green/red
+
 ✔ Uses Redux Toolkit for state management
+
 ✔ Clean and reusable code structure
 
 🛠️ Tech Stack

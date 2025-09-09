@@ -1,16 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
-import store from "./Store";
-import Counting from "./Counting";
+import store from "./store";
+import CoinCreate from "./CoinCreate";
 
 const App = () => {
   return (
-    <>
-      <Provider store={store}>
-        <Counting></Counting>
-      </Provider>
-    </>
+    <Provider store={store}>
+      <CoinCreate />
+    </Provider>
   );
 };
 

@@ -1,7 +1,6 @@
 {
   "name": "react16",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +14,11 @@
     "url": "https://github.com/kanchanpundir2004/ApiHandleRedux-app/issues"
   },
   "homepage": "https://github.com/kanchanpundir2004/ApiHandleRedux-app#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.9.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-redux": "^9.2.0"
+  }
 }
